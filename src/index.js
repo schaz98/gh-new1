@@ -37,7 +37,7 @@ function displayTemperature(response) {
       "Wednesday",
       "Thursday",
       "Friday",
-      "Saturday"
+      "Saturda"
     ];
   
     let formattedDay = days[day];
@@ -51,4 +51,5 @@ function displayTemperature(response) {
   let currentDate = new Date();
   
   currentDateELement.innerHTML = formatDate(currentDate);
+  
   
